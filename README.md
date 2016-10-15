@@ -6,6 +6,7 @@ A standard  C++ kernel processor for images
 Classes
 
   **Image** 
+    
     The image class will need to be able represent an arbitraily large image in memory. 
     Also, it will need to be able to access pixels by (x,y) coordinates. Ideally, uint_32
     with RGBA bit shift will an efficient way to represent colors in memory. This
@@ -29,10 +30,12 @@ Classes
         Returns 0 if coordinates falls out of bounds
    
    **FileImage**     
+     
      Given a pointer to an image FileImage will load .ppt, .bmp and .png files into it. Also it
      should be able to save an Image class to disk.
      
    **Convolution**
+      
       Convolution must be able to hold an mxn convolution in memory with fixed size. Also, it 
       should be able to receive an image pointer and output a kernel process to another image 
       pointer.

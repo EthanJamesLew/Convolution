@@ -48,7 +48,7 @@ Classes
      
    **MainGUI**
    
-     A event based gui (librocket/CEGUI/Qt) to load images and interact with a convolution matrix graphically.
+     An event based gui (librocket/CEGUI/Qt) to load images and interact with a convolution matrix graphically.
  
 # Resources
 

@@ -39,6 +39,16 @@ Classes
       Convolution must be able to hold an mxn convolution in memory with fixed size. Also, it 
       should be able to receive an image pointer and output a kernel process to another image 
       pointer.
+      
+   Extra Classes
+      
+   **MainWindow**
+   
+     An window (SDL or Qt) previewer to view images in a viewport.
+     
+   **MainGUI**
+   
+     A event based gui (librocket/CEGUI/Qt) to load images and interact with a convolution matrix graphically.
  
 # Resources
 

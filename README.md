@@ -44,7 +44,7 @@ Classes
       
    **MainWindow**
    
-     An window (SDL or Qt) previewer to view images in a viewport.
+     A window (SDL or Qt) previewer to view images in a viewport.
      
    **MainGUI**
    

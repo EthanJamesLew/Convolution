@@ -3,7 +3,7 @@ A standard  C++ kernel processor for images
  
 # Roadmap
 
-Classes
+Main Classes
 
   **Image** 
     
